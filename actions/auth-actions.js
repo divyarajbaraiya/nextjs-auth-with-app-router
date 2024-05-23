@@ -82,7 +82,7 @@ export async function login(prevState, formData) {
         }
     }
 
-    // await createAuthSession(existingUser.id);
+    await createAuthSession(existingUser.id);
     redirect('/training');
 }
 
